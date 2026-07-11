@@ -35,12 +35,12 @@ ROM0
 	"Home"
 ; ROMX $1
 ; 	"bank1"
-; ROMX $2
-; 	"Sound Effect Headers 1"
-; 	"Music Headers 1"
-; 	"Sound Effects 1"
-; 	"Audio Engine 1"
-; 	"Music 1"
+ROMX $2
+	"Sound Effect Headers 1"
+	"Music Headers 1"
+	"Sound Effects 1"
+	"Audio Engine 1"
+	"Music 1"
 ; ROMX $3
 ; 	"bank3"
 ; ROMX $4
@@ -60,14 +60,15 @@ ROM0
 ; 	"bank7"
 ; 	"Maps 4"
 ; 	"Hidden Events 1"
-; ROMX $8
-; 	"Sound Effect Headers 2"
-; 	"Music Headers 2"
-; 	"Sound Effects 2"
-; 	"Low Health Alarm (Audio Engine 2)"
+ROMX $8
+	"Sound Effect Headers 2"
+	"Music Headers 2"
+	"Sound Effects 2"
+	"Low Health Alarm (Audio Engine 2)"
 ; 	"Bill's PC"
-; 	"Audio Engine 2"
-; 	"Music 2"
+	org $58bc
+	"Audio Engine 2"
+	"Music 2"
 ROMX $9
 	"Pics 1"
 ; 	"Battle Engine 3"
@@ -141,29 +142,30 @@ ROMX $13
 ; 	"Itemfinder 2"
 ; ROMX $1E
 ; 	"bank1E"
-; ROMX $1F
-; 	"Sound Effect Headers 3"
-; 	"Music Headers 3"
-; 	"Sound Effects 3"
-; 	"Audio Engine 3"
-; 	"Music 3"
-; ROMX $20
-; 	"Sound Effect Headers 4"
-; 	"Music Headers 4"
-; 	"Sound Effects 4"
+ROMX $1F
+	"Sound Effect Headers 3"
+	"Music Headers 3"
+	"Sound Effects 3"
+	"Audio Engine 3"
+	"Music 3"
+ROMX $20
+	"Sound Effect Headers 4"
+	"Music Headers 4"
+	"Sound Effects 4"
 ; 	"Surfing Pikachu Graphics"
-; 	"Audio Engine 4"
-; 	"Music 4"
-; ROMX $21
-; 	"Pikachu Cries 1"
-; ROMX $22
-; 	"Pikachu Cries 2"
-; ROMX $23
-; 	"Pikachu Cries 3"
-; ROMX $24
-; 	"Pikachu Cries 4"
-; ROMX $25
-; 	"Pikachu Cries 5"
+	org $6b84
+	"Audio Engine 4"
+	"Music 4"
+ROMX $21
+	"Pikachu Cries 1"
+ROMX $22
+	"Pikachu Cries 2"
+ROMX $23
+	"Pikachu Cries 3"
+ROMX $24
+	"Pikachu Cries 4"
+ROMX $25
+	"Pikachu Cries 5"
 ; ROMX $26
 ; 	"Text 1"
 ; ROMX $27
@@ -189,22 +191,22 @@ ROMX $13
 ; 	"BG Map Attributes"
 ; ROMX $30
 ; 	"bank30"
-; ROMX $31
-; 	"Pikachu Cries 6"
-; ROMX $32
-; 	"Pikachu Cries 7"
-; ROMX $33
-; 	"Pikachu Cries 8"
-; ROMX $34
-; 	"Pikachu Cries 9"
-; ROMX $35
-; 	"Pikachu Cries 10"
-; ROMX $36
-; 	"Pikachu Cries 11"
-; ROMX $37
-; 	"Pikachu Cries 12"
-; ROMX $38
-; 	"Pikachu Cries 13"
+ROMX $31
+	"Pikachu Cries 6"
+ROMX $32
+	"Pikachu Cries 7"
+ROMX $33
+	"Pikachu Cries 8"
+ROMX $34
+	"Pikachu Cries 9"
+ROMX $35
+	"Pikachu Cries 10"
+ROMX $36
+	"Pikachu Cries 11"
+ROMX $37
+	"Pikachu Cries 12"
+ROMX $38
+	"Pikachu Cries 13"
 ; ROMX $39
 ; 	"Pikachu Graphics 1"
 ; ROMX $3A

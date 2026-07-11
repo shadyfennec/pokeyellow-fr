@@ -123,26 +123,6 @@ SECTION "rom1", ROMX[$4000], BANK[1]
 	dr _DisplayPokedex, $7b19
 
 
-SECTION "Audio Engine 1", ROMX[$4000], BANK[2]
-SECTION "rom2", ROMX[$4000], BANK[2]
-; ROM $02 : $8000 - $BFFF
-
-	dr SFX_Headers_1, $4000
-	dr SFX_Cry00_1, $403c
-	dr SFX_Get_Item1_1, $4192
-	dr SFX_Get_Item2_1, $419b
-	dr SFX_Start_Menu_1, $41ad
-	dr SFX_Press_AB_1, $41b0
-	dr SFX_Pokedex_Rating_1, $41b3
-	dr SFX_Get_Key_Item_1, $41bc
-	dr SFX_Go_Inside_1, $4207
-	dr SFX_Purchase_1, $4216
-	dr SFX_Collision_1, $421c
-	dr SFX_Go_Outside_1, $421f
-	dr Audio1_UpdateMusic, $509d
-	dr Audio1_PlaySound, $584e
-
-
 SECTION "rom3", ROMX[$4000], BANK[3]
 ; ROM $03 : $C000 - $FFFF
 
@@ -221,17 +201,10 @@ SECTION "rom7", ROMX[$4000], BANK[7]
 	dr UpdateCinnabarGymGateTileBlocks_, $64c2
 
 
-SECTION "rom8", ROMX[$4000], BANK[8]
+SECTION "rom8", ROMX[$5472], BANK[8]
 ; ROM $08 : $20000 - $23FFF
 
-	dr SFX_Dex_Page_Added, $41c8
-	dr SFX_Caught_Mon, $41ce
-	dr Music_DoLowHealthAlarm, $531e
 	dr BillsPC_, $5472
-	dr Audio2_PlaySound, $58bc
-	dr Audio2_InitMusicVariables, $59f9
-	dr Audio2_InitSFXVariables, $5ab8
-	dr Audio2_StopAllAudio, $5b40
 
 
 SECTION "rom9", ROMX[$7dfc], BANK[9]
@@ -357,41 +330,8 @@ SECTION "rom29", ROMX[$4000], BANK[29]
 ; ROM $1e : $78000 - $7BFFF
 
 
-SECTION "rom31", ROMX[$4000], BANK[31]
-; ROM $1f : $7C000 - $7FFFF
-
-	dr SFX_Shooting_Star, $4246
-	dr Music_BikeRiding, $4276
-	dr Music_Surfing, $4282
-	dr Music_MeetEvilTrainer, $42df
-	dr Music_MeetFemaleTrainer, $42e8
-	dr Music_MeetMaleTrainer, $42f1
-	dr Audio3_PlaySound, $510d
-
-
-SECTION "rom32", ROMX[$4000], BANK[32]
+;SECTION "rom32", ROMX[$4000], BANK[32]
 ; ROM $20 : $80000 - $83FFF
-
-	dr Audio4_PlaySound, $6b84
-
-;SECTION "rom33", ROMX[$4000], BANK[33]
-; ROM $21 : $84000 - $87FFF
-
-
-;SECTION "rom34", ROMX[$4000], BANK[34]
-; ROM $22 : $88000 - $8BFFF
-
-
-;SECTION "rom35", ROMX[$4000], BANK[35]
-; ROM $23 : $8C000 - $8FFFF
-
-
-;SECTION "rom36", ROMX[$4000], BANK[36]
-; ROM $24 : $90000 - $93FFF
-
-
-;SECTION "rom37", ROMX[$4000], BANK[37]
-; ROM $25 : $94000 - $97FFF
 
 
 SECTION "rom38", ROMX[$4000], BANK[38]
@@ -449,38 +389,6 @@ SECTION "rom47", ROMX[$4000], BANK[47]
 
 ;SECTION "rom48", ROMX[$4000], BANK[48]
 ; ROM $30 : $C0000 - $C3FFF
-
-
-;SECTION "rom49", ROMX[$4000], BANK[49]
-; ROM $31 : $C4000 - $C7FFF
-
-
-;SECTION "rom50", ROMX[$4000], BANK[50]
-; ROM $32 : $C8000 - $CBFFF
-
-
-;SECTION "rom51", ROMX[$4000], BANK[51]
-; ROM $33 : $CC000 - $CFFFF
-
-
-;SECTION "rom52", ROMX[$4000], BANK[52]
-; ROM $34 : $D0000 - $D3FFF
-
-
-;SECTION "rom53", ROMX[$4000], BANK[53]
-; ROM $35 : $D4000 - $D7FFF
-
-
-;SECTION "rom54", ROMX[$4000], BANK[54]
-; ROM $36 : $D8000 - $DBFFF
-
-
-;SECTION "rom55", ROMX[$4000], BANK[55]
-; ROM $37 : $DC000 - $DFFFF
-
-
-;SECTION "rom56", ROMX[$4000], BANK[56]
-; ROM $38 : $E0000 - $E3FFF
 
 
 ;SECTION "rom57", ROMX[$4000], BANK[57]

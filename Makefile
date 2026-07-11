@@ -2,11 +2,11 @@ roms    := pokeyellow.gbc
 patches := pokeyellow.patch
 
 rom_obj := \
+	audio.o \
 	home.o \
 	ram.o \
 	wip.o \
 	gfx/pics.o
-# 	audio.o \
 # 	main.o \
 # 	maps.o \
 # 	text.o \
