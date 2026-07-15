@@ -264,7 +264,6 @@ SECTION "Version Graphics", ROMX
 
 INCLUDE "gfx/version.asm"
 
-/*
 SECTION "bank1C", ROMX
 
 INCLUDE "engine/movie/splash.asm"
@@ -279,7 +278,7 @@ INCLUDE "engine/events/in_game_trades.asm"
 INCLUDE "engine/gfx/palettes.asm"
 INCLUDE "engine/menus/save.asm"
 
-
+/*
 SECTION "Itemfinder 1", ROMX
 
 INCLUDE "engine/items/itemfinder.asm"

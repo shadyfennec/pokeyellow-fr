@@ -91,7 +91,7 @@ AnimateHallOfFame:
 	ret
 
 HallOfFameText:
-	db "HALL OF FAME@"
+	db "CELEBRITE@"
 
 HoFShowMonOrPlayer:
 	call ClearScreen
@@ -192,7 +192,7 @@ HoFDisplayMonInfo:
 	ret
 
 HoFMonInfoText:
-	db   "LEVEL/"
+	db   "NIVEAU/"
 	next "TYPE1/"
 	next "TYPE2/@"
 
@@ -252,8 +252,9 @@ HoFDisplayPlayerStats:
 	call PlaceString
 	hlcoord 4, 10
 	ld de, wPlayerMoney
-	ld c, 3 | LEADING_ZEROES | MONEY_SIGN
+	ld c, 3 | LEADING_ZEROES
 	call PrintBCDNumber
+	ld [hl], $f0
 	ld hl, DexSeenOwnedText
 	call HoFPrintTextAndDelay
 	ld hl, DexRatingText
@@ -266,10 +267,10 @@ HoFPrintTextAndDelay:
 	jp DelayFrames
 
 HoFPlayTimeText:
-	db "PLAY TIME@"
+	db "DUREE JEU@"
 
 HoFMoneyText:
-	db "MONEY@"
+	db "ARGENT@"
 
 DexSeenOwnedText:
 	text_far _DexSeenOwnedText

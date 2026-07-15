@@ -131,8 +131,8 @@ ROMX $1A
 	"Tilesets 2"
 ROMX $1B
 	"Tilesets 3"
-; ROMX $1C
-; 	"bank1C"
+ROMX $1C
+ 	"bank1C"
 ; ROMX $1D
 ; 	"Maps 19"
 ; 	"Itemfinder 1"
