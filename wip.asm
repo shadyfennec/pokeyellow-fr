@@ -577,3 +577,4 @@ SECTION "rom63", ROMX[$4000], BANK[63]
 	dr PikachuWalksToNurseJoy, $5252
 	dr ApplyPikachuMovementData_, $52a1
 	dr LoadPikachuShadowIntoVRAM, $5831
+	
