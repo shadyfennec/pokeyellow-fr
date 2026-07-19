@@ -244,24 +244,6 @@ SECTION "rom21", ROMX[$4000], BANK[21]
 	dr TrainerEngage, $685b
 
 
-SECTION "rom22", ROMX[$4000], BANK[22]
-; ROM $16 : $58000 - $5BFFF
-
-	dr Route6_Blocks, $4079
-	dr Route8_Blocks, $41c6
-	dr Route10_Blocks, $4356
-	dr Route11_Blocks, $455f
-	dr Route12_Blocks, $4710
-	dr Route15_Blocks, $49cc
-	dr Route16_Blocks, $4b84
-	dr Route18_Blocks, $4c9c
-	dr CalcLevelFromExperience, $4d99
-	dr CalcExperience, $4dc0
-	dr PrintStatusAilment, $4e8b
-	dr OaksAideScript, $4ecc
-	dr RemoveGuardDrink, $653a
-
-
 SECTION "rom23", ROMX[$4000], BANK[23]
 ; ROM $17 : $5C000 - $5FFFF
 
@@ -297,6 +279,7 @@ SECTION "rom58", ROMX[$4000], BANK[58]
 	dr PrintSurfingMinigameHighScore, $4c5c
 	dr PrintDiploma, $4cb1
 	dr PrintPCBox, $4d35
+	dr PrintFanClubPortrait, $4e24
 	dr PrinterDebug, $4e79
 	dr Printer_PrepareSurfingMinigameHighScoreTileMap, $5101
 	dr SetEnemyTrainerToStayAndFaceAnyDirection, $69d5
