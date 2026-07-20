@@ -14,10 +14,10 @@ SurfingPikachuOAMData:
 	dbw $66, .SurfingPikachu
 	dbw $33, .SurfingPikachu
 	dbw $69, .SurfingPikachu
-	dbw $6c, .SurfingPikachu
-	dbw $9c, .SurfingPikachu
-	dbw $a0, .SurfingPikachu
-	dbw $a3, .SurfingPikachu
+	dbw $6c, .UnusedFrontPikachu
+	dbw $9c, .UnusedBackPikachu
+	dbw $a0, .ResultsPikachu
+	dbw $a3, .ResultsPikachu
 	dbw $a7, .SmallSplash
 	dbw $a8, .LargeSplash
 	dbw $98, .EmptySurfboard ; when Pikachu has fallen off
