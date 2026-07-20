@@ -588,7 +588,7 @@ INCLUDE "scripts/Colosseum.asm"
 INCLUDE "data/maps/objects/Colosseum.asm"
 Colosseum_Blocks: INCBIN "maps/Colosseum.blk"
 
-/*
+
 SECTION "Maps 10", ROMX
 
 INCLUDE "data/maps/headers/Route22.asm"
@@ -745,7 +745,7 @@ INCLUDE "data/maps/headers/SilphCo8F.asm"
 INCLUDE "scripts/SilphCo8F.asm"
 INCLUDE "data/maps/objects/SilphCo8F.asm"
 SilphCo8F_Blocks: INCBIN "maps/SilphCo8F.blk"
-*/
+
 
 SECTION "Maps 13", ROMX
 

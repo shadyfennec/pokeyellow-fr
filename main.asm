@@ -192,7 +192,7 @@ SECTION "Dungeon Warps", ROMX
 
 INCLUDE "engine/overworld/dungeon_warps.asm"
 
-/*
+
 SECTION "Hidden Events 2", ROMX
 
 INCLUDE "engine/events/card_key.asm"
@@ -215,7 +215,7 @@ INCLUDE "engine/events/diploma.asm"
 SECTION "Trainer Sight", ROMX
 
 INCLUDE "engine/overworld/trainer_sight.asm"
-*/
+
 
 SECTION "bank16", ROMX
 
