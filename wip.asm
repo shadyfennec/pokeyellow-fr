@@ -36,4 +36,3 @@ SECTION "rom58", ROMX[$4000], BANK[58]
 	dr Printer_PrepareSurfingMinigameHighScoreTileMap, $5101
 	dr DisplayDiplomaTop, $59ee
 	dr SetEnemyTrainerToStayAndFaceAnyDirection, $69d5
-	
